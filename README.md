@@ -27,12 +27,12 @@ source vert/bin/activate
 vert/Scripts/activate
 ```
 
-now install pillow by typing following command
+now install requirements by typing following command
 ```
-pip install pillow
+pip install requirements.txt
 ```
 after the installation is successfull,
-Create a folder named images in the same directory, where 'main.py' file live.
+Create a folder named 'images' in the same directory, where 'main.py' file live.
 add all the images in the folder(images) you just created.
 Run the file 'main.py'
 

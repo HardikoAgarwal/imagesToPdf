@@ -9,12 +9,24 @@ virtualenv (optional)
 
 ##### Usage
 
-Create a virtual environment in anywhere in your system by typing following command, 
+Create a virtual environment anywhere in your system by typing following command, 
 ```
 virtualenv vert
 ```
 > you can chose any name instead of vert for your virtual environment
-and activate it
+
+
+after creating virtual environment, activate it by typing following command,
+
+###### Mac/Linux
+```
+source vert/bin/activate
+```
+###### Windows
+```
+vert/Scripts/activate
+```
+
 now install pillow by typing following command
 ```
 pip install pillow
